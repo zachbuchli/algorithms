@@ -1,10 +1,10 @@
-.PHONY = cbuild, run, rqueue,rstack
+.PHONY = cbuild,rsearch,rqueue,rstack
 
 cbuild:
 	cmake --build ./build
 
-run-main:
-	./build/main
+rsearch:
+	./build/search
 
 rqueue:
 	./build/queue
