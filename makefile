@@ -1,4 +1,4 @@
-.PHONY = cbuild,rsearch,rqueue,rstack
+.PHONY = cbuild,rsearch,rqueue,rstack,rstring
 
 cbuild:
 	cmake --build ./build
@@ -11,3 +11,9 @@ rqueue:
 
 rstack:
 	./build/stack
+
+rstring:
+	./build/string
+
+rqsort:
+	./build/qsort
